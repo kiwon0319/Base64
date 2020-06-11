@@ -26,7 +26,7 @@ public class GithubFragment extends Fragment {
                 ViewModelProviders.of(this).get(GithubViewModel.class);
         View root = inflater.inflate(R.layout.fragment_github, container, false);
 
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://google.com"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kiwon0319/Base64"));
         startActivity(intent);
 
         getActivity().finish();
